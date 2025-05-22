@@ -1,11 +1,3 @@
-/* .header {
-    background-color: #f8c9e8;
-    color: #ffffff;
-    padding: 20px 30px;
-    text-align: center;
-    position: sticky;
-    top:0;
-} */
 
 body {
   padding: 25px;
@@ -55,9 +47,9 @@ body {
     width: 100%;
 }
 button:hover {
-               background-color: #e0a3c2;
-               border-radius: 5px;
-            }
+   background-color: #e0a3c2;
+   border-radius: 5px;
+}
 
 .projectCard{
     display: flex;
@@ -72,8 +64,47 @@ button:hover {
     justify-content: space-around;
     padding: 10px;
     text-align: center;
+    background-color: #f8c9e8;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+
     
 }
+
+.card-footer{
+    background-color: #f8c9e8;
+}
+
+.card-image{
+    background-color: white;
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+
+.card-image-dark-mode{
+    background-color: #ce89b3;
+}
+
+.card-header{
+    background-color: white;
+    color: #ce89b3;
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.card-header-dark-mode{
+    background-color: #ce89b3;
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
 
 footer {
     background-color: #f8c9e8;
@@ -83,4 +114,50 @@ footer {
     bottom: 0;
     position: relative;
     font-family: "Times New Roman", Times, serif;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+
+.accordion-button {
+    background-color: #f8c9e8;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+    background-color:  #f8c9e8;
+    color: White;
+    font-family: "Times New Roman", Times, serif;
+
+}
+.accordion-button:not(.collapsed) {
+    background-color: #f8c9e8;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.accordion-item {
+    background-color: white;
+    color: #ce89b3;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.accordion-item-dark-mode {
+    background-color: #ce89b3;
+    color: white;
+}
+
+.resume {
+    background-color: #ce89b3;
 }
